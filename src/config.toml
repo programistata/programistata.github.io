@@ -8,37 +8,38 @@ canonifyurls    = true
 publishDir = "../"
 
 [params]
-  title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
+  title       = "Programistata"
+  subtitle    = "Tata o rodzinie"
   copyright   = "© 2018"
 
-  cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  cover       = "img/cover-4.jpg"
+  description = ""
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
-  linkedinName = "eueung"
+  twitterName = ""
+  fbName = "programistata"
+  instagramName = "programistata"
+  githubName = ""
+  linkedinName = ""
   mediumName = ""
 
-  logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  logo = "img/logo-withtext.png"
+  orgName = "Programistata"
+  orgWebsite = ""
+  orgDescription = ""
 
   showSupport = true
 
-  author = "EM"
+  author = "Krzysztof Seroka"
   authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Your description here"
+  authorLocation = "Kraków"
+  authorWebsite = "https://chrisseroka.wordpress.com"
+  authorDescription = "Programista, Tata"
 
-  pageNotFoundTitle = "404 - Page not found"
+  pageNotFoundTitle = "404 - Nie ma takiej strony"
 
   #casper or caspertwo
   singleViewStyle = "casper"
@@ -47,23 +48,27 @@ publishDir = "../"
   post = "/post/:slug/"
 
 [[menu.main]]
-  name = "Home"
+  name = "Główna"
   url = "/"
   weight = 200
 
 [[menu.main]]
-  name = "Go"
+  name = "Pozytywna dyscyplina"
   url = "/tags/golang/"
   weight = 100
 
 [[menu.main]]
-  name = "Categories"
-  url = "/categories/"
+  name = "Czas z dzieckiem"
+  url = "/tags/golang/"
   weight = 99
 
 [[menu.main]]
-  name = "External"
-  url = "https://google.com/"
-  weight = 95
+  name = "Warsztaty"
+  url = "/tags/golang/"
+  weight = 90
 
+[[menu.main]]
+  name = "O mnie"
+  url = "/about/"
+  weight = 10
 

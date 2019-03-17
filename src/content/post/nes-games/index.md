@@ -9,7 +9,7 @@ next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments
 title: About NES games
 weight: 10
-image: img/posts/nes-games.jpg
+image: nes-games.jpg
 authorAvatar: hugo-logo.png
 ---
 
@@ -17,4 +17,4 @@ authorAvatar: hugo-logo.png
 ## Introduction
 
 This is test artice content
-![My Image](/img/posts/nes-games.jpg)
+![My Image](/nes-games.jpg)
